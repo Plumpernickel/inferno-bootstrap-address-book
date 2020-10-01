@@ -3,7 +3,6 @@ import { observer } from 'inferno-mobx';
 import { Col, Container, Row } from 'inferno-bootstrap';
 import { fetchContacts } from '../../services/contacts/api';
 import ContactsList from '../../components/ContactsList/ContactsList';
-import './Contacts.css';
 
 class Contacts extends Component {
 	async componentDidMount() {
