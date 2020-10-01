@@ -1,0 +1,7 @@
+.search-input, .search-input:focus {
+  background: transparent;
+}
+
+.search-input:disabled {
+  cursor: not-allowed;
+}

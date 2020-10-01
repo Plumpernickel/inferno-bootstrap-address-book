@@ -1,9 +1,11 @@
+import './logo.css';
+
 export default ({ width, height }) => {
   return (
     <svg
       version="1.0"
-      className="inferno-logo"
       viewBox="0 0 320 320"
+      className="inferno-logo"
       width={width}
       height={height}
       preserveAspectRatio="xMidYMid meet"

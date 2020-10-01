@@ -1,10 +1,15 @@
 {
-  "name": "inferno-semanticui-address-book",
+  "name": "inferno-bootstrap-address-book",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.5.2",
     "inferno": "^7.4.5",
-    "inferno-scripts": "7.0.4"
+    "inferno-bootstrap": "^7.3.2",
+    "inferno-mobx": "^7.4.5",
+    "inferno-router": "^7.4.5",
+    "inferno-scripts": "7.0.4",
+    "mobx": "^6.0.0"
   },
   "scripts": {
     "start": "inferno-scripts start",
